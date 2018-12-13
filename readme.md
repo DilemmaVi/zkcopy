@@ -17,5 +17,5 @@ java -jar zkcoy.jar 127.0.0.1:2181 127.0.0.1:2182 /path
 
 2. 下载release进行启动
 
-- release地址：
+- release地址：[点击下载](https://github.com/DilemmaVi/zkcopy/releases/download/V1.0/zkcopy.zip)
 - 下载后解压，双击start.bat启动，按照指示操作即可
