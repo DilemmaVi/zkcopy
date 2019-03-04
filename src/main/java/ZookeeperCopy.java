@@ -56,7 +56,7 @@ public class ZookeeperCopy {
 
     private static ZooKeeper getTargetZK() throws Exception {
         if (targetZK == null) {
-            targetZK = new ZooKeeper(targetZKAddress, 3000,
+            targetZK = new ZooKeeper(targetZKAddress, 30000,
                     new Watcher() {
                         // 监控所有被触发的事件
                         @Override
@@ -72,7 +72,7 @@ public class ZookeeperCopy {
     private static ZooKeeper getSourceZK() throws Exception {
 
         if (sourceZK == null) {
-            sourceZK = new ZooKeeper(sourceZKAddress, 3000,
+            sourceZK = new ZooKeeper(sourceZKAddress, 30000,
                     new Watcher() {
                         // 监控所有被触发的事件
                         @Override
